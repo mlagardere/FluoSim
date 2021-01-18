@@ -1,0 +1,8 @@
+
+main.exe : tinytiff.dll
+	g++ -o ./build/main.exe main.cpp -L./build/ -ltinytiff
+
+tinytiff.dll :
+	g++ -c -DBUILDING_TINYTIFF_DLL -o ./build/tinytiffreader.o tinytiffreader.cpp
+	g++ -c -DBUILDING_TINYTIFF_DLL -o ./build/tinytiffwriter.o tinytiffwriter.cpp
+	g++ -shared -o ./build/tinytiff.dll ./build/tinytiffreader.o ./build/tinytiffwriter.o

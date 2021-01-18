@@ -1,0 +1,1 @@
+isUsingStaticLib = true
