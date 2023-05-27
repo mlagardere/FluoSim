@@ -6,4 +6,4 @@ FluoSim software (v1.0) has been released together with the following article: [
 
 FluoSim can be downloaded directly from the Scientific Reports article webpage ([Supplementary Information 4](https://www.nature.com/articles/s41598-020-75814-y#Sec22)) or from the release section of this repository. 
 
-
+FluoSim's user-manual can be downloaded from the Scientific Reports article webpage ([Supplementary Information 3](https://www.nature.com/articles/s41598-020-75814-y#Sec22)) or can be found in the installation folder (FluoSim/Resources/Documentation/FluoSim - UserManual.pdf).
